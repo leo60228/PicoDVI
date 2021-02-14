@@ -15,8 +15,8 @@
 // offloaded to a slower encode loop on a spare state machine.
 
 // Pick one:
-#define MODE_640x480_60Hz
-// #define MODE_1280x720_30Hz
+// #define MODE_640x480_60Hz
+#define MODE_1280x720_30Hz
 
 #if defined(MODE_640x480_60Hz)
 // DVDD 1.2V (1.1V seems ok too)

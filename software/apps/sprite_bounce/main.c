@@ -14,12 +14,12 @@
 #include "common_dvi_pin_configs.h"
 #include "sprite.h"
 
-// Pick one:
-#define MODE_640x480_60Hz
+// // Pick one:
+// #define MODE_640x480_60Hz
 // #define MODE_800x480_60Hz
 // #define MODE_800x600_60Hz
 // #define MODE_960x540p_60Hz
-// #define MODE_1280x720_30Hz
+#define MODE_1280x720_30Hz
 
 #include "raspberry_128x128_rgab5515.h"
 #include "eben_128x128_rgab5515.h"
@@ -49,7 +49,7 @@
 // Frame resolution is almost the same as a PSP :)
 #define FRAME_WIDTH 480
 #define FRAME_HEIGHT 270
-#define VREG_VSEL VREG_VOLTAGE_1_25
+#define VREG_VSEL VREG_VOLTAGE_1_30
 #define DVI_TIMING dvi_timing_960x540p_60hz
 
 #elif defined(MODE_1280x720_30Hz)
@@ -57,7 +57,7 @@
 // DVDD 1.25V (slower silicon may need the full 1.3, or just not work)
 #define FRAME_WIDTH 640
 #define FRAME_HEIGHT 360
-#define VREG_VSEL VREG_VOLTAGE_1_25
+#define VREG_VSEL VREG_VOLTAGE_1_30
 #define DVI_TIMING dvi_timing_1280x720p_30hz
 
 #else

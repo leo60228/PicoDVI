@@ -20,7 +20,7 @@
 // DVDD 1.25V (slower silicon may need the full 1.3, or just not work)
 #define FRAME_WIDTH 1280
 #define FRAME_HEIGHT 720
-#define VREG_VSEL VREG_VOLTAGE_1_25
+#define VREG_VSEL VREG_VOLTAGE_1_30
 #define DVI_TIMING dvi_timing_1280x720p_30hz
 
 struct dvi_inst dvi0;

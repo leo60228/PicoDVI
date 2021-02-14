@@ -15,4 +15,4 @@ ffmpeg \
 
 ./rle_compress.py raw pack.bin
 
-uf2conv -f rp2040 -b 0x10010000 pack.bin -o pack.uf2
+uf2conv -c -f rp2040 -b 0x10010000 pack.bin -o pack.uf2
